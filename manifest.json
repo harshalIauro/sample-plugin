@@ -1,0 +1,27 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.11",
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "version": "1.0.0",
+    "packageName": "com.example.smaplePlugin",
+    "name": {
+        "short": "MyTeamsApp",
+        "full": "My Custom Teams App"
+    },
+    "description": {
+        "short": "Short description",
+        "full": "Full description of the app"
+    },
+    "accentColor": "#6264A7",
+    "staticTabs": [
+        {
+            "entityId": "MyAngularApp",
+            "name": "My Angular App",
+            "contentUrl": "https://iauro.com/",
+            "websiteUrl": "https://iauro.com/",
+            "scopes": ["personal"]
+        }
+    ],
+    "permissions": [],
+    "validDomains": []
+}
